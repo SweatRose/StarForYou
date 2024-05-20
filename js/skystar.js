@@ -1,5 +1,6 @@
 // poem
 var words=[
+    '老婆',
     '伤心桥下春波绿',
     '曾是惊鸿照影来',
     '当年明月在',
@@ -65,7 +66,8 @@ var words=[
     '沉鱼落雁鸟惊喧',
     '羞花闭月花愁颤',
     '解释春风无限恨',
-    '沉香亭北倚阑干'
+    '沉香亭北倚阑干'，
+    '我爱你'
 ];
 function randomNum(min,max){
     var num = (Math.random()*(max-min+1)+min).toFixed(2);
@@ -99,7 +101,7 @@ window.addEventListener('load',init);
 let textone = document.querySelector('.textone').querySelector('h1');
       let text = document.querySelector('.text').querySelector('h1');
       setTimeout(function(){
-        textone.innerHTML = '今晚，整片星空将为你一人闪烁';
+        textone.innerHTML = '这一次，我一定要握紧你的手，老婆~';
           textone.style.color = '#E8F9FD';
           textone.style.fontFamily = '楷体'
           text.innerHTML = '';
