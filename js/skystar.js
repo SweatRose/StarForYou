@@ -83,7 +83,7 @@ function init(){
         word.classList.add('word');
         word.style.color = '#BAABDA';
         word.style.fontFamily = '楷体';
-        word.style.fontSize = '20px'
+        word.style.fontSize = '30px'
         word_box.classList.add('word-box');
         word_box.style.setProperty("--margin-top",randomNum(-40,20)+'vh');
         word_box.style.setProperty("--margin-left",randomNum(6,35)+'vw');
@@ -101,7 +101,7 @@ window.addEventListener('load',init);
 let textone = document.querySelector('.textone').querySelector('h1');
       let text = document.querySelector('.text').querySelector('h1');
       setTimeout(function(){
-        textone.innerHTML = '这一次，我一定要握紧你的手，老婆~';
+        textone.innerHTML = '这一次，我一定握紧你的手，老婆~';
           textone.style.color = '#E8F9FD';
           textone.style.fontFamily = '楷体'
           text.innerHTML = '';
