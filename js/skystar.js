@@ -101,7 +101,7 @@ window.addEventListener('load',init);
 let textone = document.querySelector('.textone').querySelector('h1');
       let text = document.querySelector('.text').querySelector('h1');
       setTimeout(function(){
-        textone.innerHTML = '这一次，我一定握紧你的手，老婆~';
+        textone.innerHTML = '这一次，我一定握紧你的手，老婆~\n我爱你~';
           textone.style.color = '#E8F9FD';
           textone.style.fontFamily = '楷体'
           text.innerHTML = '';
